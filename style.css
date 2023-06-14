@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-family: 'Anek Latin', sans-serif;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-family: 'Bungee Spice', cursive;
+    font-family: 'Charis SIL', serif;
+    font-family: 'Edu SA Beginner', cursive;
+    font-family: 'Joan', serif;
+    font-family: 'Jost', sans-serif;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-family: 'Potta One', cursive;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+html{
+    font-size: 62.5%;
+}
+html,body{
+    font-weight: 8  00;
+    line-height:1.4;
+    scroll-behavior: smooth;
+}
+body
+{
+    font-size: 1.5rem;
+}
+header{
+    position: sticky;
+    top: 0;
+    background:white;
+}
+nav{
+    padding: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+nav ul li{
+    font-size: 2rem;
+}
+nav ul li:hover{
+    border-bottom: 2px solid yellow;
+}
+nav i{
+    font-size: 2.5rem;
+}
+main{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/* Hero Section */
+
+#hero
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero_content h1
+{
+    font-size: 6.5rem;
+    line-height: 1.2;
+}
+.hero_content h4
+{
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+.hero_image img{
+    border-radius: 5rem;
+}
+/* Long Card Section */
+.h_card{
+    display: flex;
+    margin: 2rem 1rem;
+    box-shadow: 0px 5px 4px rgba(221, 221, 221);
+    align-items: center;
+    border: 1px solid #e2e2e2;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+.card_content{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+/* Status Section */
+.status{
+    display: flex;
+    justify-content: space-between;
+}
+.read_btn
+{
+    all: unset;
+    font-weight: 600;
+    border-bottom: 1px solid transparent;
+}
+.read_btn:hover
+{
+    border-bottom: 1px solid #ccc;
+}
+/* V_Cards */
+.v_card{
+    display: flex;
+    flex-direction: column-reverse;
+    max-width: 360px;
+    box-shadow: 0px 5px 4px rgba(221, 221, 221);
+    align-items: center;
+    border: 1px solid #e2e2e2;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+.v_card img{
+    width: 100%;
+    height: 100%;
+}
+.card_content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+}
+.card_content h2{
+    display: flex;
+    justify-content: center;
+}
+.card_content p{
+    text-align: justify;
+}
+.card_wrapper
+{
+    display: flex;
+    justify-content: center;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 1rem;
+    max-width: 1200px;
+}
+footer ul{
+    display: flex;
+    gap: 2rem;
+}
+footer ul li{
+    font-size: 2rem;
+    list-style: none;
+}
+
+/* Post Page */
+.banner_image img{
+    width: 100%;
+}
+.post h1{
+    font-size: 3rem;
+}
+.post hr{
+    margin: 3rem 0;
+}
+.about_author{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 1rem;
+    align-items: center;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin-bottom: 2rem;
+}
+a{
+    text-decoration: none;
+    color: #000 ;   
+}
